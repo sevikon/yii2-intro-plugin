@@ -1,5 +1,6 @@
 {
   "name": "sevikon/yii2-intro-plugin",
+  "version":"1.0.0",
   "type": "yii2-extension",
   "description": "Ajax Search Widget",
   "keywords": ["yii2", "ajax", "search"],
@@ -15,6 +16,7 @@
     "bower-asset/jquery": "2.1.*@stable | 1.11.*@stable",
     "bower-asset/intro.js": "*"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "sevikon\\ajaxSearch\\": ""
