@@ -16,6 +16,5 @@ class IntroWidget extends Widget
     private function registerAssetBundle(){
         $view = $this->getView();
         IntroBowerAsset::register($view);
-        IntroAsset::register($view);
     }
 }
